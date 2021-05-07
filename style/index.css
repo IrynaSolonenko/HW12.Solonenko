@@ -1,0 +1,30 @@
+header {
+  background: green;
+  width: 100%;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header li:not(:last-child) {
+  padding-right: 50px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+main div {
+  margin-top: 40px;
+}
+
+header nav, main {
+  max-width: 970px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.css.map */

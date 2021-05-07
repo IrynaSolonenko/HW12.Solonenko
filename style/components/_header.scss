@@ -1,0 +1,28 @@
+$font-size-S:18px;
+$padding-right-menu:50px;
+
+
+header{
+
+    background: green;
+    width: 100%;
+    nav{
+        @extend %container;
+    }
+    
+        ul{
+            display: flex;
+            list-style: none;
+        
+        }
+            
+            li:not(:last-child){
+                padding-right: $padding-right-menu;
+            }
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: $font-size-S;
+                }
+}
